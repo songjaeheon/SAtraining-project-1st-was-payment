@@ -1,0 +1,19 @@
+spring.application.name=was-payment
+
+#MySQL configuration
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+# redis configuration
+redis.host=
+redis.port=
+redis.password=
+
+# JWT(Json Web Token) configuration
+jwt_access.secret=
+
+# localhost 포트 번호
+server.port=
